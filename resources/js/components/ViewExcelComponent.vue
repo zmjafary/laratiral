@@ -31,7 +31,7 @@
         },
         methods: {
             fetchData(){
-                fetch('api/vueApi')
+                fetch('api/excel-data')
                     .then(res => res.json())
                     .then(res => {
                         this.headings = res.headings;

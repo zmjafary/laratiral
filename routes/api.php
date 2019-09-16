@@ -17,4 +17,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('vueApi', 'ExcelController@vueApi');
+Route::get('excel-data', 'ExcelController@vueApi');
